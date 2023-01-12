@@ -1,6 +1,23 @@
 nav > a {
     color: crimson;
     text-decoration: none;
+    position: relative;
+}
+
+nav > a span {
+    background-color: crimson;
+    height: 2px;
+    width: 100%;
+    top: 20px;
+    left:0;
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+nav > a:hover span {
+    transform: scaleX(1);
+    transform-origin: center;
 }
 
 .about > blockquote {
@@ -11,17 +28,17 @@ nav > a {
     font-weight: bold;
 }
 
-section.users p span:nth-child(2) {
+.users p span:nth-child(2) {
     color: crimson;
 }
 
-section.creators a.link
+.creators a.link
 {
     font-family: "Lato", Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
-section.creators a.font {
+.creators a.font {
     font-family: "PT Serif", Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -31,6 +48,7 @@ section.creators a.font {
     font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
-section.cta ul li:nth-child(odd) {
+.cta ul li:nth-child(odd) {
     text-decoration-line: underline;
 }
+
