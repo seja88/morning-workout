@@ -1,0 +1,36 @@
+nav > a {
+    color: crimson;
+    text-decoration: none;
+}
+
+.about > blockquote {
+    background: #eaeaea;
+}
+
+.users > span {
+    font-weight: bold;
+}
+
+section.users p span:nth-child(2) {
+    color: crimson;
+}
+
+section.creators a.link
+{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+section.creators a.font {
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cta h2{
+    color: crimson;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+section.cta ul li:nth-child(odd) {
+    text-decoration-line: underline;
+}
